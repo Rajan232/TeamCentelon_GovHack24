@@ -13,9 +13,10 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="card card-outline card-primary">
+        
             <div class="card-header text-center">
+            <img  style="height: 70px;"src="admin/dist/img/logo.png"></img></br>
                 <a href="/" class="h1">{{ config('app.name') }}</a>
-                <img src="/dist/img/logo.png"></img>
             </div>
             <div class="card-body">
                 @yield('main')
