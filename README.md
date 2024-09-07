@@ -61,6 +61,22 @@ The AI team worked on the exploratory data analysis (EDA) and retrieval-augmente
    - `ai-models/EDA_Documentation.md`
    - `ai-models/RAG_Documentation.md`
 
+### Dataset Details
+
+The datasets used for this project are stored in the `ai-agent/datasets` folder. These include the following CSV files:
+- `ACCIDENT_EVENT.csv`
+- `ACCIDENT_LOCATION.csv`
+- `ACCIDENT.csv`
+- `ATMOSPHERIC_COND.csv`
+- `NODE.csv`
+- `PERSON.csv`
+- `ROAD_SURFACE_COND.csv`
+- `SUB_DCA.csv`
+- `VEHICLE.csv`
+
+These datasets were used for exploratory data analysis and to support the retrieval-augmented generation model.
+
+
 ### Instructions to Run AI Models
 
 1. **Install Dependencies**:
