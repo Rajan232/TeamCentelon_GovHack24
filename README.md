@@ -41,3 +41,29 @@ This is an example of how to list things you need to use the software and how to
     - Email: `admin@local.test` 
     - Password: `password`
 
+
+## AI Team Contributions
+
+The AI team worked on the exploratory data analysis (EDA) and retrieval-augmented generation (RAG) using large language models (LLMs) for this project. The AI code and results are stored in the `ai-models` folder.
+
+### AI Workflow Overview
+
+1. **EDA (Exploratory Data Analysis)**:
+   We analyzed the road crash dataset using Jupyter notebooks to identify key patterns and trends. You can find the detailed EDA analysis in the file:
+   - `ai-models/Road_Crash_Data_EDA_Analysis.ipynb`
+
+2. **RAG (Retrieval-Augmented Generation)**:
+   We implemented a retrieval-augmented generation model to provide answers based on road crash data using an LLM. The code for this model can be found in:
+   - `ai-models/Executive_Summary_AI_Agent.ipynb`
+
+3. **Documentation**:
+   Detailed documentation for the AI contributions can be found in the AI folder or the markdown files:
+   - `ai-models/EDA_Documentation.md`
+   - `ai-models/RAG_Documentation.md`
+
+### Instructions to Run AI Models
+
+1. **Install Dependencies**:
+   Make sure you have all necessary libraries installed. You can install the required libraries for the AI models using:
+   ```bash
+   pip install -r ai-models/requirements.txt
